@@ -1,5 +1,4 @@
-[![Circle CI](https://circleci.com/gh/z-dev/hacker-how-backend.svg?style=svg&circle-token=30c357ffe6e5afa0bd778cb276d94d3ef31de360)](https://circleci.com/gh/z-dev/hacker-how-backend)
-
+[![Circle CI](https://circleci.com/gh/z-dev/hacker-how-content.svg?style=svg&circle-token=9f37c236c017c414b5af85c2f837fd83006cdf11)](https://circleci.com/gh/z-dev/hacker-how-content)
 ## Getting started
 
 First run: `npm install`
