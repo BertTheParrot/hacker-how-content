@@ -1,5 +1,7 @@
+/*eslint-disable no-use-before-define */
+
 import _ from 'lodash'
-import  S from 'string'
+import S from 'string'
 
 function sanitiseName(name) {
   return S(name.toLowerCase()).replaceAll('.md', '')

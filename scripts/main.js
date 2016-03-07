@@ -7,7 +7,6 @@ import config from './config'
 import Firebase from 'firebase'
 import git from 'git-rev-sync'
 
-
 firebaseInitialisation()
   .then(() => {
     const gitRevision = git.short()
@@ -23,7 +22,8 @@ firebaseInitialisation()
     console.log('Saving to firebase')
     return firebaseRef.update({currentVersion: gitRevision, [gitRevision]: programmeForFirebase})
   })
+  .then(() => console.log('Done'))
   .catch((error) => {
     console.log(error)
-    process.exit(1);
+    process.exit(1)
   })
