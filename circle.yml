@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - npm run lint_js && npm run compile
+    - npm run lint_js && npm run compile && ./bin/deployInCi.sh
