@@ -2,6 +2,8 @@
 
 import _ from 'lodash'
 import S from 'string'
+import fileSystem from 'fs'
+import {markdown} from 'markdown'
 
 function sanitiseName(name) {
   return S(name.toLowerCase()).replaceAll('.md', '')
@@ -19,7 +21,7 @@ function reformatDirectoryNode(directoryNode) {
 }
 
 function reformatFileNode(fileNode) {
-  return [[sanitiseName(fileNode.name)], {contents: fileNode.path}]
+  return [[sanitiseName(fileNode.name)], {contents: markdown.toHTML(fileSystem.readFileSync(`content/${fileNode.path}`).toString())}]
 }
 
 export default function convertToFirebase(tree) {

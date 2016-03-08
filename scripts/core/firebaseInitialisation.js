@@ -5,7 +5,7 @@ import uuid from 'node-uuid'
 
 export default function firebaseInitialisation() {
   const tokenGenerator = new FirebaseTokenGenerator(config.firebaseSecret)
-  const token = tokenGenerator.createToken({uid: `hackerHowContent${uuid.v4()}`})
+  const token = tokenGenerator.createToken({uid: `hackerHowContent${uuid.v4()}`}, {admin: true})
 
   const ref = new Firebase(config.firebaseUrl)
 
