@@ -1,11 +1,11 @@
 # HTTP API
-# Outcome
+## Outcome
 
 You'll:
 
 * Understand how people use HTTP to write remote APIS
 
-# Advice
+## Advice
 
 Initially HTTP was used only for websites. But then some bright spark decided to also use it for 'APIs'.
 
@@ -27,7 +27,7 @@ Some of these APIs run locally e.g. jQuery. They execute all within your program
 
 Some of these APIs run remotely e.g. http apis. You send a http message across the network to another process, which interprets the message. Runs a function and then sends a structured message back with the response.
 
-###Why are remote API calls a good idea?
+### Why are remote API calls a good idea?
 
 Cons:
 
@@ -52,11 +52,11 @@ Pros:
 
 When talking about HTTP APIs another word that's bounded around alot is REST. It's basically a convention on how to structure which HTTP verbs (GET, POST, PUT etc.) you use depending on what you're doing. It's probably a good idea to roughly follow rest. But realistically HTTP APIs are just a way of remote calling a function. It's a good idea that those APIS 'don't have state' and are predictable. It would be bad if you called a GET HTTP API once, and this affected the response of the second call.
 
-###Why HTTP APIs though?
+### Why HTTP APIs though?
 
 This has really kicked off in the last 5 years. The primary reason is that the web sandbox only allows you to call out to things using the HTTP protocol. Alot of technologies in the last 10 years became popular and then became standard because websites are very popular (obviously). And the restrictions of the web haven't really changed, so in the end people found ways to make these things good. E.g. Javascript (which was truly awful 10 years ago). And HTTP for APIs, which would have made you sound mad 10 years ago. Once the tools / online resources became available people then started using them where they didn't even need to (desktop apps / mobile apps).
 
-###So what is standard?
+### So what is standard?
 
 Restful(ish) HTTP APIS which return JSON as the response format. You can also return XML, both are machine readible. JSON is more human readable, which has made JSON popular.
 
@@ -80,21 +80,21 @@ You care about the size of the data you're sending around. JSON is human readibl
 
 But to use these, you need a library with can 'parse' and 'serialize' these formats. Debugging messages is also impossible without serializing the messages back to a human readible form.
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [HTTP API Primer](http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340)
 
 
-# Tasks
+## Tasks
 
 * Read the primer
 * Read the advice.
 * Compare [JSON api call](http://ws.spotify.com/search/1/artist.json?q=kate%20bush) to [XML api call](http://ws.spotify.com/search/1/artist?q=kate%20bush)
 * Download [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) and use it to call this api: http://ws.spotify.com/search/1/artist.json?q=kate%20bush
 
-# Footnotes
+## Footnotes
 
 (1) The `+` operator is really just a special function if you think about it. var + = function(a,b) { .... }. It's just that you don't say: `+(1, 2)` you say `1 + 2`.
 
