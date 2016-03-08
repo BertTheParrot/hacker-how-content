@@ -21,9 +21,13 @@ function reformatDirectoryNode(directoryNode) {
 }
 
 function reformatFileNode(fileNode) {
-  return [[sanitiseName(fileNode.name)], {contents: markdown.toHTML(fileSystem.readFileSync(`content/${fileNode.path}`).toString())}]
+  return [[sanitiseName(fileNode.name)], {contents: filePathToHtml(fileNode.path)}]
 }
 
 export default function convertToFirebase(tree) {
   return reformatTree(tree)[1]
+}
+
+function filePathToHtml(filePath) {
+  return markdown.toHTML(fileSystem.readFileSync(`content/${filePath}`).toString())
 }
