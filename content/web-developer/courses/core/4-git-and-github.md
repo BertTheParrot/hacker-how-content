@@ -1,6 +1,6 @@
 #Git and Github
 
-# Outcome
+## Outcome
 
 You'll:
 
@@ -9,11 +9,11 @@ You'll:
 * Version your code so you can back to any previous point in time.
 * Use github and undestanding the PR model for reviewing code.
 
-# Prerequisites
+## Prerequisites
 
 None
 
-#Advice
+##Advice
 
 95% of developers use git for version control. It has ALOT of features, you'll use <50% of them (as do I!).
 
@@ -21,19 +21,18 @@ Git is very command line based, i've not found a UI that works very well. The to
 
 We'll be using the Pull Request model so I can take a look at the code you're writing and review it for you to help you get better :smile:.
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [Code School Git Real 1](https://www.codeschool.com/courses/git-real) (*not* Git Real 2)
 * [Code School Git Mastering Github] (https://www.codeschool.com/courses/mastering-github) Level 1 and 2 only.
-## Alternative
 
-## Additional / useful
+### Additional / useful
 
 [Git cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
-# Tasks
+## Tasks
 
 * Run through the code school course + tasks.
 * Setup git on local machine (you should be using SSH rather than https when you use git (no password prompts))
