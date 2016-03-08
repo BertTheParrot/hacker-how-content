@@ -1,10 +1,10 @@
 #Underscore and Lodash(Not ready)
 
-# Outcome
+## Outcome
 
 You will understand what underscore and lodash are and why you should use them when you're programming Javascript.
 
-# Advice
+## Advice
 
 Javascript doesn't come alot of core libraries. So you end up writing quite alot of code yourself. Thankfully underscore was invented which provides a tonne of useful functions to help you out.
 
@@ -32,13 +32,13 @@ Functions which I use often:
 * IsEqual
 
 
-# Learning materials
+## Learning materials
 
 * http://www.pluralsight.com/courses/underscore-fundamentals
 * http://underscorejs.org/
 * https://lodash.com/docs
 
-# Tasks
+## Tasks
 
 * Run through the learning materials
 * Build an example of 5 of the above function I said I used locally.

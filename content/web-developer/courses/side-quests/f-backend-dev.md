@@ -1,12 +1,12 @@
 #Backend Node
 
-# Outcome
+## Outcome
 
 You'll be able to backend dev.
 
-# Advice
+## Advice
 
-## You already know it.
+### You already know it.
 
 You already know javascript. Now it's time to backend it up.
 
@@ -28,7 +28,7 @@ Don't work / can't be used with Node:
 
 * Webpack (webpack, kind of simulates node (deals with requiring things))
 
-## Extra capabilities
+### Extra capabilities
 
 There are some things you can do in node that you can't do inside a browser:
 
@@ -44,12 +44,12 @@ There are some things you can do in node that you can't do inside a browser:
 There are lots of npm packages to help you with all of this stuff. We'll run through a few now.
 
 
-# Learning materials
+## Learning materials
 
 * [File System API](https://nodejs.org/api/fs.html)
 * [Express](http://expressjs.com/) http server.
 
-# Tasks
+## Tasks
 
 * Get our [node-seed](https://github.com/z-dev/node-seed) up and running.
 * Create a new directory on the filesystem

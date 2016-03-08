@@ -2,18 +2,18 @@
 
 Warning: This course is long. It's 4 code school courses. But once you're done, you'll understand everything you need to know about Javascript :smile:.
 
-# Outcome
+## Outcome
 
 You'll:
 
 * Understand the majority of the features of the Javascript language.
 * Be ready to learn how to make interactive web pages.
 
-# Prerequisites
+## Prerequisites
 
 * [html and css foundations](1-html-and-css-foundations.md)
 
-# Advice
+## Advice
 
 * Javascript has versions (although Chrome, for example, tends to release them feature by feature all the time). Version ES5 is the current version, but ES6 is a lot better :smile:
 * The code school courses are based on ES5.
@@ -35,20 +35,20 @@ You'll:
 * Take loop performance section with a pinch of salt. Performance is hard. If you code is slow - measure how slow it is and try and speed it up.
 * We'll be learning [something](http://browserify.org/) later to help with namespaces.
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [Javascript Road Trip Part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
 * [Javascript Road Trip Part 2](https://www.codeschool.com/courses/javascript-road-trip-part-2)
 * [Javascript Road Trip Part 3](https://www.codeschool.com/courses/javascript-road-trip-part-3)
 * [Javascript best practices](https://www.codeschool.com/courses/javascript-best-practices) (Just watch section 2, Skip section 4 (Namespacing))
 
-## Additional / useful
+### Additional / useful
 
 * [Cheatsheet](http://marijnhaverbeke.nl/js-cheatsheet.html)
 
-# Tasks
+## Tasks
 
 * Do all the code school courses and tasks above.
 

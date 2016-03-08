@@ -1,17 +1,17 @@
 #Webpack
 
-# Outcome
+## Outcome
 
 You'll:
 
 * Have a basic understanding of what webpack is and what it's used for.
 * Be able to use webpack using our seed project.
 
-# Prerequisites
+## Prerequisites
 
 * SASS and ES6 help.
 
-# Advice
+## Advice
 
 Webpack is a tool which helps you 'build' code. (Take things which won't quite run in the browser e.g. .scss or ES6 Javascript and convert them to vanilla HTML, CSS and JS (transpile them))
 
@@ -28,13 +28,13 @@ What will webpack do for us:
 * Transpile ES6 (latest) Javascript into ES5 (current version which all browsers support) Javascript
 * Watch for your files to change, and automatically redo the above transpiles and refresh your browser automatically.
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [Webpack Cookbook](https://christianalfoni.github.io/react-webpack-cookbook/index.html) Sections: Intro, 1, 3, skim 4 (skim everything a bit I think)
 
-# Tasks
+## Tasks
 
 * *Skim* through the cookbook.
 * Checkout the [sample webpack project](https://github.com/richardgill/webpack-seed).

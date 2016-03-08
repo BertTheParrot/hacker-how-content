@@ -1,6 +1,6 @@
 #Bootstrap
 
-# Outcome
+## Outcome
 
 You'll:
 
@@ -10,10 +10,11 @@ You'll:
 * Be able to build lots of components you can see all over the web
 * How to include icons onto your page
 
-# Prerequisites
+## Prerequisites
 
 * [html and css foundations](1-html-and-css-foundations.md)
 
+## Advice
 Bootstrap is a great tool when you're starting out. When you get more advanced you might move away from it (i'm not that advanced yet!).
 
 Embrace the grid for nearly everything you do.
@@ -24,19 +25,16 @@ We're going to learn how to customise Bootstrap in a later course, you can modif
 
 [Bootstrap v4](http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/) is coming quite soon. But we'll use 3 for now.
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [Code School Blasting off with bootstrap](https://www.codeschool.com/courses/blasting-off-with-bootstrap) (All levels)
 
 * [Bootstrap](http://getbootstrap.com/) documentation [css](http://getbootstrap.com/css/) and [components](http://getbootstrap.com/components/) are particularly useful
 
-## Alternative
 
-## Additional / useful
-
-# Tasks
+### Tasks
 
 * Run through the code school course + tasks.
 * [Codecademy problems](https://www.codecademy.com/en/courses/html-css-prj)

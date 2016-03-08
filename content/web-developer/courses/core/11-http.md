@@ -1,11 +1,11 @@
 # HTTP
-# Outcome
+## Outcome
 
 You'll:
 
 * Understand some of the finer points of HTTP
 
-# Advice
+## Advice
 
 HTTP is the 'protocol' used to load webpages. It's a standard agreed by a bunch of people with neck beards come up with, developers who do httpy stuff (Firefox / Chrome developers etc.) then follow those standards.
 
@@ -24,14 +24,14 @@ Redirection is quite important, it's very common to do these redirects
 * http -> https (secure is good :smile:).
 * http://google.com -> http://www.google.com.
 
-# Learning materials
+## Learning materials
 
-# Core
+## Core
 
 * [HTTP primer](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 
 
-# Tasks
+## Tasks
 
 * Read the primer but stop at the section: Request and Response Message Formats
 * Questions (answers on a postcard!)

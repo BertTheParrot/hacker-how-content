@@ -1,5 +1,5 @@
 # React
-# Outcome
+## Outcome
 
 You'll:
 
@@ -7,9 +7,9 @@ You'll:
 * Understand what JSX is.
 * Why you learned everything else :) (Webpack, ES6, Lodash, SuperAgent) (Cos they work amazingly with React)
 
-# Advice
+## Advice
 
-##JSX
+### JSX
 
 JSX is important with React. We'll always use it. JSX is another transpiled language (like we do for ES6 -> ES5 code). JSX lets you write HTML directly in javascript. That's it.
 
@@ -169,22 +169,22 @@ Inside any of the functions we pass into `createClass` e.g. `render`.  We can ac
 `componentDidMount` is a function you define inside your component. It gets called a little after `componentWillMount`. Use it to do stuff before your component is shown on the screen.
 
 
-##How to think about React
+###How to think about React
 
 * React is a library which lets you create new HTML tags (components) e.g: `<hero name='Puck'/>`.
 * React components are essentially: `props` (immutable) + `state` (can change) and a `render` function which probably talks about `props` and `state`.
   * Think of react as: `function render(props, state) { return(<div>{this.props.name} {this.state.somethingElse}) }`
   * This function gets called every time state changes and will automatically update the DOM.
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [React Primer](https://github.com/mikechau/react-primer-draft)
 * [React Frontend Masters](https://frontendmasters.com/courses/react/)
 * [Official Docs](https://facebook.github.io/react/docs/getting-started.html) bit crap in my opinion. They're good once you understand React enough to get stuff done, but not amazing for learning IMO.
 
-# Tasks
+## Tasks
 
 Do it like throwing Spaghetti at wall. Feel free to jump backwards, re-read, re-watch, play around until you get it.
 
