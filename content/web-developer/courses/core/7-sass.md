@@ -1,6 +1,6 @@
 #Sass
 
-# Outcome
+## Outcome
 
 You'll:
 
@@ -11,11 +11,11 @@ You'll:
 
 Other than importing / variables, the other features are a nice to have right now.
 
-# Prerequisites
+## Prerequisites
 
 * HTML and CSS foundations
 
-#Advice
+## Advice
 
 We'll use the extension .scss
 
@@ -35,14 +35,13 @@ So you write your website in .scss, .html and .js and you 'build' it to .css, .h
 
 We will use a tool called webpack to help do this compilation (and later, other compilations for javascript)
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [Code School Assembling Sass](https://www.codeschool.com/courses/assembling-sass) (Level 1 & 2. Skip or Skim the rest.)
 
-## Alternative
 
-# Tasks
+## Tasks
 
 * Run through code school + tasks (you can do this quite quickly, variables are important, the rest is nice to know)
