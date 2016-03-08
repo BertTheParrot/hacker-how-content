@@ -1,14 +1,14 @@
 #Advanced HTML and CSS
 
-# Outcome
+## Outcome
 
 You'll understand:
 
 * More about CSS and HTML
 
-# Learning materials
+## Learning materials
 
-# Core
+### Core
 
 * [Codeschool HTML Formations](https://www.codeschool.com/courses/front-end-formations)
 * [Codeschool CSS Cross Country](https://www.codeschool.com/courses/css-cross-country)
