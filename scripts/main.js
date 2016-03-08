@@ -22,7 +22,10 @@ firebaseInitialisation()
     console.log('Saving to firebase')
     return firebaseRef.update({currentVersion: gitRevision, [gitRevision]: programmeForFirebase})
   })
-  .then(() => console.log('Done'))
+  .then(() => {
+    console.log('Done')
+    process.exit()
+  })
   .catch((error) => {
     console.log(error)
     process.exit(1)
