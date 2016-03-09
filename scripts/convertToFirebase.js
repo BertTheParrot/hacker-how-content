@@ -31,3 +31,12 @@ export default function convertToFirebase(tree) {
 function filePathToHtml(filePath) {
   return markdown.toHTML(fileSystem.readFileSync(`content/${filePath}`).toString())
 }
+
+export function freeToViewProgrammes(programmes, freeToViewProgrammePaths) {
+  return _.reduce(freeToViewProgrammePaths, (programmesSoFar, path) => {
+    if (_.has(programmes, path)) {
+      return _.merge({...programmesSoFar}, _.set({}, path, _.get(programmes, path)))
+    }
+    return programmesSoFar
+  }, {})
+}
