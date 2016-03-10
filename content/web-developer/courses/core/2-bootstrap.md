@@ -31,7 +31,7 @@ We're going to learn how to customise Bootstrap in a later course, you can modif
 
 * [Code School Blasting off with bootstrap](https://www.codeschool.com/courses/blasting-off-with-bootstrap) (All levels)
 
-* [Bootstrap documentation](http://getbootstrap.com/) [css](http://getbootstrap.com/css/) and [components](http://getbootstrap.com/components/) are particularly useful
+* [Bootstrap documentation](http://getbootstrap.com/) - [css](http://getbootstrap.com/css/) and [components](http://getbootstrap.com/components/) are particularly useful
 
 
 ### Tasks
