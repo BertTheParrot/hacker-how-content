@@ -14,7 +14,7 @@ You'll understand:
 * Text editor ([Sublime Text 3](https://www.sublimetext.com/3))
 * Web browser ([Chrome](https://www.google.com/chrome/))
 * [Code School subscription](https://www.codeschool.com/pricing) ($21)
-* [Codecademy account](https://www.codecademy.com/).
+* [Codecademy account](https://www.codecademy.com/)
 
 ## Advice
 
