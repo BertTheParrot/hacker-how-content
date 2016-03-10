@@ -27,7 +27,9 @@
     "firebase-token-generator": "^2.0.0",
     "git-rev-sync": "^1.4.0",
     "lodash": "^4.2.1",
-    "markdown": "^0.5.0",
+    "markdown-it": "^6.0.0",
+    "markdown-it-emoji": "^1.1.0",
+    "markdown-it-lazy-headers": "^0.1.3",
     "moment": "^2.10.6",
     "node-uuid": "^1.4.7",
     "string": "^3.3.1"

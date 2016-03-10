@@ -3,9 +3,9 @@
 import _ from 'lodash'
 import S from 'string'
 import fileSystem from 'fs'
-import {markdown} from 'markdown'
+import markdownToHtml from './core/markdownConverter'
 
-function sanitiseName(name) {
+function sanitiseFileName(name) {
   return S(name.toLowerCase()).replaceAll('.md', '')
 }
 
@@ -21,7 +21,7 @@ function reformatDirectoryNode(directoryNode) {
 }
 
 function reformatFileNode(fileNode) {
-  return [[sanitiseName(fileNode.name)], {contents: filePathToHtml(fileNode.path)}]
+  return [[sanitiseFileName(fileNode.name)], {contents: filePathToHtml(fileNode.path)}]
 }
 
 export default function convertToFirebase(tree) {
@@ -29,7 +29,7 @@ export default function convertToFirebase(tree) {
 }
 
 function filePathToHtml(filePath) {
-  return markdown.toHTML(fileSystem.readFileSync(`content/${filePath}`).toString())
+  return markdownToHtml(fileSystem.readFileSync(`content/${filePath}`).toString())
 }
 
 export function freeToViewProgrammes(programmes, freeToViewProgrammePaths) {
