@@ -2,9 +2,9 @@
 
 This training resource is designed with the goal of training someone with no programming experience to become a frontend web / app developer as quickly as possible.
 
-The course is designed around 'Abilities' and grouped into courses. The scheme is opinionated, and covers just enough to get a foothold as a frontend developer.
+The course is designed around 'Abilities' and grouped into courses. The scheme is opinionated, and covers just the things you need to know.
 
-Courses typically consist of hand picked material from the internet. Suplimented with any other relevant information and some tasks.
+Courses typically consist of hand picked material from across the web. Suplimented with any other relevant information and some tasks.
 
 ## Abilities
 
@@ -32,7 +32,7 @@ Courses typically consist of hand picked material from the internet. Suplimented
   * [HTTP APIs](courses/core/12-http-apis.md)
   * [HTTP API library (Superagent)](courses/core/13-http-apis-in-javascript.md)
 
-* Building an interactive website (2015 style!)
+* Building an interactive website (2016 style!)
   * [ES6/7](courses/core/10-es6.md)
   * [React](courses/core/14-react.md)
   * Routing (React router? pages.js)
