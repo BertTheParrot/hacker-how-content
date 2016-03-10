@@ -47,7 +47,7 @@ The videos talks alot about 'resetting' the css to override the browser defaults
 * [Shayhowe](http://learn.shayhowe.com/html-css/). All reading and visual.
 
 * [Another reading example](http://websitesetup.org/html5-beginners-guide/)
-*
+
 ### Additional / useful
 
 * [HTML Cheatsheet](http://www.simplehtmlguide.com/cheatsheet.php)
