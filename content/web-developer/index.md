@@ -32,7 +32,7 @@ Courses typically consist of hand picked material from across the web. Supliment
   * [HTTP APIs](courses/core/12-http-apis.md)
   * [HTTP API library (Superagent)](courses/core/13-http-apis-in-javascript.md)
 
-* Building an interactive website (2015 style!)
+* Building an interactive website (2016 style!)
   * [ES6/7](courses/core/10-es6.md)
   * [React](courses/core/14-react.md)
   * Routing (React router? pages.js)
