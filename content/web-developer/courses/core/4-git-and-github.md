@@ -26,7 +26,7 @@ We'll be using the Pull Request model so we can take a look at the code you're w
 
 ### Core
 
-* [Code School Git Real 1](https://www.codeschool.com/courses/git-real) (*not* Git Real 2)
+* [Code School Git Real 1](https://www.codeschool.com/courses/git-real) (**not** Git Real 2)
 * [Code School Git Mastering Github](https://www.codeschool.com/courses/mastering-github) Level 1 and 2 only.
 
 ### Additional / useful
